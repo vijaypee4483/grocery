@@ -1,0 +1,28 @@
+{
+    "vegetables": {
+        "name": [
+            "potato",
+            "tomato",
+            "onion",
+            "brinjal",
+            "chilli",
+            "ginger"
+        ],
+        "availability": [
+            10,
+            8,
+            6,
+            4,
+            2,
+            3
+        ],
+        "mrp": [
+            20,
+            25,
+            40,
+            35,
+            60,
+            80
+        ]
+        }
+    }

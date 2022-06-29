@@ -1,0 +1,41 @@
+{
+    "veggies": [
+        {
+           "id": 1,
+            "veg_name":"potato",
+            "avelable_qty":10,
+            "mrp":20
+        },
+        {
+            "id": 2,
+             "veg_name":"onion",
+             "avelable_qty":8,
+             "mrp":25
+         },
+         {
+            "id": 3,
+             "veg_name":"tomato",
+             "avelable_qty":6,
+             "mrp":40
+         },
+         {
+            "id": 4,
+             "veg_name":"brinjal",
+             "avelable_qty":4,
+             "mrp":35
+         },
+         {
+            "id": 5,
+             "veg_name":"chilli",
+             "avelable_qty":2,
+             "mrp":60
+         },
+         {
+            "id": 6,
+             "veg_name":"ginger",
+             "avelable_qty":3,
+             "mrp":80
+         }
+        
+    ]
+}

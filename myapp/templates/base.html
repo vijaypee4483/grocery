@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    {% block title %}<title>Groceries</title>{% endblock %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add additional CSS in static file -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    </head>
+    <body>
+        <div class="app-container">
+            <div class="header">
+                Welcome to StoreFront
+            </div>
+            <div class="container">
+                <div class="sidebar">
+                    {% block sidebar %}
+                        <ul class="sidebar-nav">
+                            <li><a href={% url 'home' %}>🏠 Home</a></li>
+                            <li><a href="">🥬 Veggies</a></li>
+                            <li><a href="">🍎 Fruits</a></li>
+                            <li><a href="">🍪 Snacks</a></li>
+                            <li><a href="">🛀 Toiletries</a></li>
+                            <li><a href="">🧑‍🍳 Kitchen</a></li>
+                        </ul>
+                    {% endblock %}
+                </div>
+                <div class="pre-container">
+                    <h3>Products</h3>
+                    <div class="col-sm-10 ">{% block content %}{% endblock %}</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

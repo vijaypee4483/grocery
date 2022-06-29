@@ -1,0 +1,45 @@
+.app-container {
+    width: 60%;
+    margin: auto;
+    border: 1px solid rgb(231, 231, 231);
+}
+
+.header {
+   text-align: center;
+   font-size: xx-large;
+   font-family: Arial;
+   color: white  !important;
+   background-color: #313131
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    background-color: #2d2d2d;
+    text-align: left;
+    padding-right: 5px;
+}
+.pre-container {
+    padding-left: 25px;   
+   }
+
+.sidebar-nav {
+    margin-right: 10px;
+    text-align: left;
+    list-style: none;
+    line-height: 2.5em;
+}
+
+.sidebar-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.sidebar-nav a:hover {
+    color: #11df93;
+}
+
